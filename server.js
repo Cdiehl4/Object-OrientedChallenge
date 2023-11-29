@@ -16,6 +16,11 @@ inquirer.prompt([
         name:"shape",
         message:"choose a shape",
         choices:["triangles","circles","squares"]
+    },
+    {
+        type:"input",
+        name:"shapeColor",
+        message:"What shpe color do you want"
     }
 ])
 .then(function(data){
